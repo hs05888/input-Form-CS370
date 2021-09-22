@@ -1,7 +1,7 @@
 form{ 
     display:table; 
     font-size:24px; 
-    width: 35%;
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -14,9 +14,8 @@ user{
     padding:10px; 
 } 
 
-firstname, lastname, email, password, cpassword{ 
+firstname, lastname, email, password { 
     display: table-cell; 
     border: solid 1px;
     text-align: center;
-    width: 25%;
 }
