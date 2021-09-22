@@ -1,0 +1,22 @@
+form{ 
+    display:table; 
+    font-size:24px; 
+    width: 35%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+user{ 
+    display:table-row; 
+    text-align:center; 
+    padding:10px; 
+} 
+
+firstname, lastname, email, password, cpassword{ 
+    display: table-cell; 
+    border: solid 1px;
+    text-align: center;
+    width: 25%;
+}
