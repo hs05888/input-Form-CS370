@@ -10,8 +10,8 @@ Enter all information i.e. name, email, password, confirm password
 Criteria:
 name: only alpha characters allowed;
 email: the characater '@' must be included;
-password: Must be 8 in length
-confirm password: passwords must match
+password: Must be 8 in length; 
+confirm password: passwords must match;
 
 Once the user presses submit; The data entry will be added to an xml file;
 The user can press submit many times and add many data entries.
