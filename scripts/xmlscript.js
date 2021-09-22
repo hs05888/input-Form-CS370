@@ -40,10 +40,10 @@ form.addEventListener('submit', handleForm);
  xmldata.push("<form>");
 
 xmldata.push('<user>');
-xmldata.push('<col>');
-xmldata.push('<col>');
-xmldata.push('<col>');
-xmldata.push('<col>');
+xmldata.push('<col> firstname </col>');
+xmldata.push('<col> lastname </col>');
+xmldata.push('<col> email </col>');
+xmldata.push('<col> password </col>');
 xmldata.push('</user>');
 
  function addToXML(){
