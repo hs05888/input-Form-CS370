@@ -45,7 +45,7 @@ form.addEventListener('submit', handleForm);
 
     xmldata.push('<user>')
     for(var i=0; i<inputs.length; i++){	
-        if (inputs[i].name) {
+        if (inputs[i].name && inputs[i].name != "cpassword")  {
         xmldata.push(` <${inputs[i].name}> ${inputs[i].value} </${inputs[i].name}>`);
         }
     }
