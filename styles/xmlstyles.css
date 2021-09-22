@@ -8,6 +8,15 @@ form{
     transform: translate(-50%, -50%);
 }
 
+
+col{ 
+    display: table-cell; 
+    border: solid 1px;
+    padding: 10px; 
+    width: 25%;
+    background-color: yellow;
+}
+
 user{ 
     display:table-row; 
     text-align:center; 

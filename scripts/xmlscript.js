@@ -38,7 +38,14 @@ form.addEventListener('submit', handleForm);
  xmldata.push("<?xml-stylesheet type='text/css' href='https://hs05888.github.io/input-Form-CS370/styles/xmlstyles.css'?>");
 
  xmldata.push("<form>");
- 
+
+xmldata.push('<user>');
+xmldata.push('<col>');
+xmldata.push('<col>');
+xmldata.push('<col>');
+xmldata.push('<col>');
+xmldata.push('</user>');
+
  function addToXML(){
     var form = document.getElementById("myform");
     var inputs=form.elements;
